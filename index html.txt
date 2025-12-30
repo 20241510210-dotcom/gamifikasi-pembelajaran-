@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simak Cerdas - Pembelajaran Menyimak Kurikulum Merdeka</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Floating Decorations -->
+    <div class="floating-decoration float-anim" style="left: 5%; top: 15%;">📚</div>
+    <div class="floating-decoration float-anim" style="left: 90%; top: 25%; animation-delay: 1s;">🎵</div>
+    <div class="floating-decoration float-anim" style="left: 10%; top: 70%; animation-delay: 2s;">✨</div>
+    <div class="floating-decoration float-anim" style="left: 85%; top: 65%; animation-delay: 3s;">🌟</div>
+    <div class="floating-decoration float-anim" style="left: 50%; top: 10%; animation-delay: 4s;">🎯</div>
+
+    <div class="container">
+        <!-- Header -->
+        <div class="main-header">
+            <h1><span>🎧</span> Simak Cerdas</h1>
+            <p class="subtitle">Pembelajaran Menyimak Interaktif untuk Siswa SD Kelas Atas</p>
+            <span class="kurikulum-badge">✨ Kurikulum Merdeka</span>
+        </div>
+
+        <!-- Welcome Screen -->
+        <div class="welcome-screen" id="welcomeScreen">
+            <h2>Selamat Datang, Pelajar Cerdas! 🌟</h2>
+            <p>
+                Aplikasi ini dirancang khusus untuk melatih kemampuan menyimak kamu melalui berbagai jenis teks lisan yang menarik. 
+                Dengarkan dengan seksama, pahami isi cerita, dan jawab pertanyaan dengan teliti. Ayo asah keterampilan literasimu dan jadilah Pelajar Pancasila yang bernalar kritis!
+            </p>
+            <p style="color: #5B7BC9; font-weight: bold; font-size: 1.3em; margin-top: 30px;">
+                Pilih Kelasmu untuk Memulai Petualangan Belajar:
+            </p>
+
+            <div class="class-selection">
+                <div class="class-card" onclick="selectClass(4)">
+                    <h3>📘 Kelas 4</h3>
+                    <p>Ayo Mulai Belajar Menyimak!</p>
+                    <ul>
+                        <li>Cerita sederhana</li>
+                        <li>Percakapan sehari-hari</li>
+                        <li>Pengumuman di sekolah</li>
+                        <li>Dongeng anak</li>
+                    </ul>
+                </div>
+
+                <div class="class-card" onclick="selectClass(5)">
+                    <h3>📗 Kelas 5</h3>
+                    <p>Tingkatkan Kemampuanmu!</p>
+                    <ul>
+                        <li>Cerita rakyat</li>
+                        <li>Teks eksplanasi lisan</li>
+                        <li>Dialog tokoh</li>
+                        <li>Laporan kegiatan</li>
+                    </ul>
+                </div>
+
+                <div class="class-card" onclick="selectClass(6)">
+                    <h3>📕 Kelas 6</h3>
+                    <p>Tantangan Lebih Seru!</p>
+                    <ul>
+                        <li>Cerita inspiratif</li>
+                        <li>Pidato pendek</li>
+                        <li>Teks informasi</li>
+                        <li>Berita & wawancara</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Game Screen -->
+        <div class="game-screen" id="gameScreen">
+            <!-- Top Bar -->
+            <div class="top-bar">
+                <div class="stats">
+                    <div class="stat-item">
+                        <div class="label">Kelas</div>
+                        <div class="value" id="currentClass">4</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="label">Level</div>
+                        <div class="value" id="currentLevel">1</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="label">Skor</div>
+                        <div class="value" id="currentScore">0</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="label">Benar</div>
+                        <div class="value" id="correctAnswers">0/5</div>
+                    </div>
+                </div>
+                <button class="back-btn" onclick="backToHome()">← Kembali</button>
+            </div>
+
+            <!-- Progress Bar -->
+            <div class="progress-container">
+                <div class="progress-label">
+                    <span>Progres Pembelajaran</span>
+                    <span id="progressPercent">0%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+            </div>
+
+            <!-- Content Card -->
+            <div class="content-card">
+                <span class="content-type-badge" id="contentType">📖 Cerita</span>
+                
+                <!-- Audio Section -->
+                <div class="audio-section">
+                    <h2 class="audio-title" id="audioTitle">Judul Materi</h2>
+                    <div class="audio-text" id="audioText">Teks akan muncul di sini...</div>
+                    
+                    <div class="audio-controls">
+                        <button class="play-button" id="playButton" onclick="toggleAudio()">
+                            <span id="playIcon">▶️</span>
+                            <span id="playText">Putar Audio</span>
+                        </button>
+                        
+                        <div class="speed-control">
+                            <label for="speedSelect">Kecepatan:</label>
+                            <select id="speedSelect" onchange="changeSpeed()">
+                                <option value="0.75">Lambat (0.75x)</option>
+                                <option value="1" selected>Normal (1x)</option>
+                                <option value="1.25">Cepat (1.25x)</option>
+                                <option value="1.5">Sangat Cepat (1.5x)</option>
+                            </select>
+                        </div>
+                        
+                        <div class="audio-status" id="audioStatus"></div>
+                    </div>
+                </div>
+
+                <!-- Questions Section -->
+                <div class="questions-section" id="questionsSection">
+                    <h2 class="section-header">
+                        <span>📝</span>
+                        <span>Pertanyaan Pemahaman</span>
+                    </h2>
+                    <div id="questionsContainer"></div>
+                    
+                    <button class="submit-button" id="submitButton" onclick="submitAnswers()" disabled>
+                        Periksa Jawaban ✓
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Result Modal -->
+    <div class="modal" id="resultModal">
+        <div class="modal-content">
+            <div class="result-emoji" id="resultEmoji">🎉</div>
+            <h2 class="result-title" id="resultTitle">Hasil Belajarmu</h2>
+            
+            <div class="result-details">
+                <div class="result-score" id="resultScore">100</div>
+                <div class="result-text" id="resultText">Kamu menjawab dengan sempurna!</div>
+            </div>
+
+            <div class="profil-pancasila">
+                <strong>🌟 Profil Pelajar Pancasila</strong><br>
+                <span id="profilPancasila">Kamu telah menunjukkan sikap bernalar kritis dengan baik!</span>
+            </div>
+
+            <div class="action-buttons">
+                <button class="modal-button" onclick="nextLevel()">Level Selanjutnya →</button>
+                <button class="modal-button secondary" onclick="retryLevel()">Coba Lagi 🔄</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

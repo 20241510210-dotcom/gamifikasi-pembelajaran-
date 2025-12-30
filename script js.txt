@@ -1,0 +1,628 @@
+// Data Pembelajaran berdasarkan Kurikulum Merdeka
+const learningData = {
+    4: [
+        {
+            type: "📖 Cerita Sederhana",
+            title: "Liburan ke Pantai",
+            text: "Pada hari Minggu, keluarga Dina pergi berlibur ke pantai. Mereka berangkat pagi-pagi sekali agar tidak terjebak macet. Sesampainya di pantai, Dina sangat senang melihat ombak yang besar. Ayah memasang payung dan tikar di tepi pantai. Ibu menyiapkan bekal makanan yang lezat. Dina dan adiknya bermain pasir dan membuat istana pasir yang tinggi. Mereka juga mengumpulkan kerang-kerang cantik. Saat siang, mereka berenang bersama dengan hati-hati. Ayah mengajari Dina cara berenang yang benar. Sebelum pulang, mereka membersihkan sampah dan memastikan pantai tetap bersih. Dina berjanji akan datang lagi ke pantai.",
+            questions: [
+                {
+                    question: "Kapan keluarga Dina pergi ke pantai?",
+                    options: [
+                        "Hari Sabtu pagi",
+                        "Hari Minggu pagi",
+                        "Hari Senin sore",
+                        "Hari Jumat siang"
+                    ],
+                    correct: 1
+                },
+                {
+                    question: "Mengapa mereka berangkat pagi-pagi sekali?",
+                    options: [
+                        "Karena ingin cepat sampai",
+                        "Karena takut hujan",
+                        "Agar tidak terjebak macet",
+                        "Karena pantai tutup siang"
+                    ],
+                    correct: 2
+                },
+                {
+                    question: "Apa yang dilakukan Dina dan adiknya di pantai?",
+                    options: [
+                        "Bermain bola",
+                        "Membaca buku",
+                        "Bermain pasir dan membuat istana",
+                        "Memancing ikan"
+                    ],
+                    correct: 2
+                },
+                {
+                    question: "Siapa yang mengajari Dina cara berenang?",
+                    options: [
+                        "Ibu",
+                        "Adiknya",
+                        "Kakaknya",
+                        "Ayah"
+                    ],
+                    correct: 3
+                },
+                {
+                    question: "Apa yang dilakukan keluarga Dina sebelum pulang?",
+                    options: [
+                        "Membeli oleh-oleh",
+                        "Membersihkan sampah",
+                        "Bermain lagi",
+                        "Tidur di pantai"
+                    ],
+                    correct: 1
+                }
+            ]
+        },
+        {
+            type: "🗣️ Percakapan Sehari-hari",
+            title: "Di Kantin Sekolah",
+            text: "Rani bertemu temannya, Budi, di kantin sekolah saat istirahat. Rani: 'Hai Budi! Sudah makan siang?' Budi: 'Belum, Rani. Aku sedang memilih makanan. Kamu sudah?' Rani: 'Sudah, aku membeli nasi goreng dan teh manis. Enak sekali!' Budi: 'Wah, aku juga mau nasi goreng kalau begitu. Bu Kantin, saya pesan nasi goreng satu dan es jeruk ya!' Bu Kantin: 'Baik, tunggu sebentar ya. Mau pakai kerupuk?' Budi: 'Ya, Bu. Terima kasih.' Setelah makan, mereka duduk di bangku taman sekolah sambil mengobrol tentang pelajaran matematika tadi pagi. Rani: 'Soal matematika tadi susah ya, Bud.' Budi: 'Iya, tapi aku senang karena akhirnya bisa mengerjakannya dengan bantuan Bu Guru.' Mereka berdua setuju untuk belajar bersama sepulang sekolah.",
+            questions: [
+                {
+                    question: "Di mana Rani bertemu Budi?",
+                    options: [
+                        "Di kelas",
+                        "Di kantin sekolah",
+                        "Di perpustakaan",
+                        "Di lapangan"
+                    ],
+                    correct: 1
+                },
+                {
+                    question: "Apa yang dibeli Rani untuk makan siang?",
+                    options: [
+                        "Mie goreng dan susu",
+                        "Nasi goreng dan teh manis",
+                        "Roti dan jus",
+                        "Bakso dan es teh"
+                    ],
+                    correct: 1
+                },
+                {
+                    question: "Apa yang dipesan Budi di kantin?",
+                    options: [
+                        "Mie ayam dan teh",
+                        "Bakso dan es jeruk",
+                        "Nasi goreng dan es jeruk",
+                        "Soto dan air mineral"
+                    ],
+                    correct: 2
+                },
+                {
+                    question: "Tentang apa Rani dan Budi mengobrol?",
+                    options: [
+                        "Pelajaran olahraga",
+                        "Pelajaran matematika",
+                        "Pelajaran bahasa Inggris",
+                        "Pelajaran seni"
+                    ],
+                    correct: 1
+                },
+                {
+                    question: "Apa yang mereka sepakati untuk dilakukan sepulang sekolah?",
+                    options: [
+                        "Bermain bola",
+                        "Belajar bersama",
+                        "Pergi ke taman",
+                        "Menonton film"
+                    ],
+                    correct: 1
+                }
+            ]
+        }
+    ],
+    5: [
+        {
+            type: "📚 Cerita Rakyat",
+            title: "Malin Kundang (Ringkasan)",
+            text: "Di sebuah desa pesisir, hiduplah seorang anak bernama Malin Kundang bersama ibunya. Mereka hidup sederhana sebagai nelayan. Suatu hari, Malin memutuskan merantau untuk mengubah nasib. Dengan berat hati, ibunya merestui keberangkatan Malin. Setelah bertahun-tahun, Malin menjadi saudagar kaya dan menikah dengan putri saudagar. Kapalnya singgah di kampung halamannya. Ibunya yang sudah tua mendengar kabar itu dan berlari menemui Malin. Namun, Malin malu mengakui ibunya yang berpakaian compang-camping. Ia bahkan mengusir ibunya dengan kasar. Hati ibunya hancur dan ia berdoa agar Malin mendapat pelajaran. Tiba-tiba langit mendung, angin kencang bertiup, dan petir menyambar. Malin dan kapalnya berubah menjadi batu. Kisah ini mengajarkan kita untuk selalu menghormati orang tua.",
+            questions: [
+                {
+                    question: "Mengapa Malin Kundang memutuskan merantau?",
+                    options: [
+                        "Karena bosan di kampung",
+                        "Untuk mengubah nasib",
+                        "Karena bertengkar dengan ibu",
+                        "Ingin mencari teman"
+                    ],
+                    correct: 1
+                },
+                {
+                    question: "Apa pekerjaan Malin setelah merantau?",
+                    options: [
+                        "Nelayan",
+                        "Petani",
+                        "Saudagar kaya",
+                        "Guru"
+                    ],
+                    correct: 2
+                },
+                {
+                    question: "Mengapa Malin mengusir ibunya?",
+                    options: [
+                        "Karena marah",
+                        "Karena tidak mengenalinya",
+                        "Karena malu dengan pakaian ibunya",
+                        "Karena tidak sayang lagi"
+                    ],
+                    correct: 2
+                },
+                {
+                    question: "Apa yang terjadi pada Malin Kundang di akhir cerita?",
+                    options: [
+                        "Ia menjadi raja",
+                        "Ia kembali ke kampung",
+                        "Ia dan kapalnya berubah menjadi batu",
+                        "Ia bertobat dan minta maaf"
+                    ],
+                    correct: 2
+                },
+                {
+                    question: "Apa nilai moral dari cerita Malin Kundang?",
+                    options: [
+                        "Jangan sombong",
+                        "Harus menghormati orang tua",
+                        "Rajin bekerja akan sukses",
+                        "Jangan lupa kampung halaman"
+                    ],
+                    correct: 1
+                }
+            ]
+        },
+        {
+            type: "🔬 Teks Eksplanasi",
+            title: "Proses Terjadinya Hujan",
+            text: "Hujan adalah peristiwa alam yang sangat penting bagi kehidupan. Proses terjadinya hujan dimulai dari penguapan air di permukaan bumi, seperti laut, sungai, dan danau oleh panas matahari. Air yang menguap berubah menjadi uap air dan naik ke atmosfer. Di atmosfer yang lebih dingin, uap air mengalami kondensasi atau perubahan menjadi titik-titik air yang sangat kecil. Titik-titik air ini berkumpul dan membentuk awan. Semakin banyak titik air yang berkumpul, awan menjadi semakin tebal dan gelap. Ketika titik-titik air di awan sudah terlalu banyak dan berat, gravitasi bumi menariknya jatuh sebagai hujan. Jika suhu di atmosfer sangat dingin, air bisa jatuh sebagai salju atau hujan es. Hujan sangat bermanfaat untuk mengairi tanaman, mengisi sumber air, dan menjaga keseimbangan ekosistem.",
+            questions: [
+                {
+                    question: "Apa yang menyebabkan air menguap di permukaan bumi?",
+                    options: [
+                        "Angin kencang",
+                        "Panas matahari",
+                        "Gravitasi bumi",
+                        "Gerakan awan"
+                    ],
+                    correct: 1
+                },
+                {
+                    question: "Apa yang dimaksud dengan kondensasi?",
+                    options: [
+                        "Air menguap ke udara",
+                        "Uap air berubah menjadi titik-titik air",
+                        "Air jatuh ke tanah",
+                        "Air membeku menjadi es"
+                    ],
+                    correct: 1
+                },
+                {
+                    question: "Di mana titik-titik air kecil berkumpul?",
+                    options: [
+                        "Di tanah",
+                        "Di laut",
+                        "Di awan",
+                        "Di sungai"
+                    ],
+                    correct: 2
+                },
+                {
+                    question: "Mengapa titik air di awan bisa jatuh menjadi hujan?",
+                    options: [
+                        "Karena angin mendorong",
+                        "Karena terlalu banyak dan berat",
+                        "Karena matahari menyinari",
+                        "Karena awan pecah"
+                    ],
+                    correct: 1
+                },
+                {
+                    question: "Apa manfaat hujan bagi kehidupan?",
+                    options: [
+                        "Membuat banjir",
+                        "Merusak tanaman",
+                        "Mengairi tanaman dan mengisi sumber air",
+                        "Membuat udara panas"
+                    ],
+                    correct: 2
+                }
+            ]
+        }
+    ],
+    6: [
+        {
+            type: "🎤 Pidato Pendek",
+            title: "Pentingnya Menjaga Kebersihan Lingkungan",
+            text: "Assalamualaikum warahmatullahi wabarakatuh. Yang terhormat Bapak Kepala Sekolah, Bapak Ibu Guru, dan teman-teman yang saya cintai. Pada kesempatan ini, saya ingin menyampaikan pidato tentang pentingnya menjaga kebersihan lingkungan. Lingkungan yang bersih adalah tanggung jawab kita bersama. Kebersihan lingkungan dimulai dari hal kecil, seperti membuang sampah pada tempatnya, tidak mencoret-coret dinding, dan merawat tanaman di sekitar kita. Lingkungan yang bersih akan membuat kita sehat, nyaman, dan betah berada di sekolah. Sebaliknya, lingkungan yang kotor dapat menimbulkan penyakit, seperti diare, demam berdarah, dan penyakit kulit. Mari kita mulai dari diri sendiri. Bawalah tempat sampah kecil di tas, pisahkan sampah organik dan anorganik, dan ikuti kegiatan Jumat Bersih di sekolah. Ajak juga keluarga di rumah untuk peduli kebersihan. Ingat, kebersihan adalah sebagian dari iman. Dengan lingkungan bersih, kita bisa belajar lebih fokus dan meraih prestasi. Ayo, jadilah pahlawan lingkungan! Terima kasih atas perhatiannya. Wassalamualaikum warahmatullahi wabarakatuh.",
+            questions: [
+                {
+                    question: "Apa tema pidato yang disampaikan?",
+                    options: [
+                        "Pentingnya belajar",
+                        "Pentingnya menjaga kebersihan lingkungan",
+                        "Pentingnya olahraga",
+                        "Pentingnya persahabatan"
+                    ],
+                    correct: 1
+                },
+                {
+                    question: "Sebutkan salah satu cara menjaga kebersihan yang disebutkan!",
+                    options: [
+                        "Tidur yang cukup",
+                        "Membuang sampah pada tempatnya",
+                        "Belajar dengan rajin",
+                        "Bermain dengan teman"
+                    ],
+                    correct: 1
+                },
+                {
+                    question: "Apa akibat dari lingkungan yang kotor?",
+                    options: [
+                        "Membuat senang",
+                        "Menimbulkan penyakit",
+                        "Membuat pintar",
+                        "Membuat nyaman"
+                    ],
+                    correct: 1
+                },
+                {
+                    question: "Apa nama kegiatan kebersihan di sekolah yang disebutkan?",
+                    options: [
+                        "Senin Bersih",
+                        "Sabtu Sehat",
+                        "Jumat Bersih",
+                        "Minggu Riang"
+                    ],
+                    correct: 2
+                },
+                {
+                    question: "Apa pesan utama dari pidato ini?",
+                    options: [
+                        "Belajar yang rajin",
+                        "Jaga kebersihan dimulai dari diri sendiri",
+                        "Hormati guru",
+                        "Rajin olahraga"
+                    ],
+                    correct: 1
+                }
+            ]
+        },
+        {
+            type: "📰 Teks Informasi (Berita)",
+            title: "Lomba Cerdas Cermat Tingkat Provinsi",
+            text: "Kabar gembira datang dari SD Harapan Bangsa. Tim cerdas cermat sekolah ini berhasil meraih juara pertama dalam Lomba Cerdas Cermat Sains tingkat provinsi yang diadakan di Gedung Serbaguna, Sabtu lalu. Tim yang terdiri dari Anisa kelas 6A, Farhan kelas 6B, dan Zahra kelas 6A ini berhasil mengalahkan 25 tim dari berbagai sekolah dasar di provinsi. Mereka menjawab berbagai pertanyaan seputar sains, matematika, dan pengetahuan umum dengan sangat baik. Kepala Sekolah, Bapak Hendra Wijaya, mengungkapkan rasa bangganya. 'Ini adalah hasil kerja keras siswa dan pembimbing. Mereka berlatih setiap hari sepulang sekolah selama tiga bulan,' ujarnya. Anisa, ketua tim, mengatakan bahwa kunci kesuksesan mereka adalah kerja sama dan tidak mudah menyerah. Sebagai juara, tim ini mendapat piala bergilir, medali emas, dan beasiswa pendidikan. Mereka juga akan mewakili provinsi dalam lomba tingkat nasional bulan depan. Seluruh warga sekolah memberikan apresiasi dan dukungan untuk persiapan lomba selanjutnya.",
+            questions: [
+                {
+                    question: "Apa nama sekolah yang memenangkan lomba?",
+                    options: [
+                        "SD Tunas Harapan",
+                        "SD Harapan Bangsa",
+                        "SD Cerdas Bangsa",
+                        "SD Nusantara"
+                    ],
+                    correct: 1
+                },
+                {
+                    question: "Berapa tim yang mengikuti lomba tersebut?",
+                    options: [
+                        "20 tim",
+                        "25 tim",
+                        "30 tim",
+                        "15 tim"
+                    ],
+                    correct: 1
+                },
+                {
+                    question: "Berapa lama tim berlatih sebelum lomba?",
+                    options: [
+                        "Satu bulan",
+                        "Dua bulan",
+                        "Tiga bulan",
+                        "Enam bulan"
+                    ],
+                    correct: 2
+                },
+                {
+                    question: "Apa hadiah yang diterima oleh tim juara?",
+                    options: [
+                        "Uang tunai",
+                        "Piala, medali, dan beasiswa",
+                        "Hanya piala",
+                        "Komputer"
+                    ],
+                    correct: 1
+                },
+                {
+                    question: "Apa yang akan dilakukan tim selanjutnya?",
+                    options: [
+                        "Liburan",
+                        "Mewakili provinsi di lomba nasional",
+                        "Pensiun dari lomba",
+                        "Mengajar teman"
+                    ],
+                    correct: 1
+                }
+            ]
+        }
+    ]
+};
+
+// Variables
+let currentClassLevel = 4;
+let currentLevelIndex = 0;
+let currentAnswers = {};
+let isPlaying = false;
+let readingIndex = 0;
+let readingInterval;
+let totalScore = 0;
+let currentSpeed = 1;
+let speechSynthesis = window.speechSynthesis;
+let currentUtterance = null;
+let isPaused = false;
+
+// Initialize
+function selectClass(classNum) {
+    currentClassLevel = classNum;
+    currentLevelIndex = 0;
+    totalScore = 0;
+    document.getElementById('welcomeScreen').classList.add('hidden');
+    document.getElementById('gameScreen').style.display = 'block';
+    document.getElementById('currentClass').textContent = classNum;
+    loadLevel();
+}
+
+function loadLevel() {
+    currentAnswers = {};
+    isPlaying = false;
+    isPaused = false;
+    
+    // Stop any ongoing speech
+    if (speechSynthesis.speaking) {
+        speechSynthesis.cancel();
+    }
+    
+    const levelData = learningData[currentClassLevel][currentLevelIndex];
+    
+    document.getElementById('currentLevel').textContent = currentLevelIndex + 1;
+    document.getElementById('contentType').textContent = levelData.type;
+    document.getElementById('audioTitle').textContent = levelData.title;
+    document.getElementById('audioText').textContent = levelData.text;
+    document.getElementById('playButton').disabled = false;
+    document.getElementById('playIcon').textContent = '▶️';
+    document.getElementById('playText').textContent = 'Putar Audio';
+    document.getElementById('audioStatus').textContent = '';
+    document.getElementById('questionsSection').style.opacity = '0.5';
+    document.getElementById('questionsSection').style.pointerEvents = 'none';
+    
+    loadQuestions(levelData.questions);
+    updateProgress(0);
+}
+
+function loadQuestions(questions) {
+    const container = document.getElementById('questionsContainer');
+    container.innerHTML = '';
+    
+    questions.forEach((q, qIndex) => {
+        const questionCard = document.createElement('div');
+        questionCard.className = 'question-card';
+        questionCard.innerHTML = `
+            <span class="question-number">Pertanyaan ${qIndex + 1}</span>
+            <div class="question-text">${q.question}</div>
+            <div class="options-grid">
+                ${q.options.map((opt, optIndex) => `
+                    <div class="option" onclick="selectAnswer(${qIndex}, ${optIndex})" data-question="${qIndex}" data-option="${optIndex}">
+                        <div class="option-letter">${String.fromCharCode(65 + optIndex)}</div>
+                        <span>${opt}</span>
+                    </div>
+                `).join('')}
+            </div>
+        `;
+        container.appendChild(questionCard);
+    });
+    
+    document.getElementById('submitButton').disabled = true;
+}
+
+function toggleAudio() {
+    if (!isPlaying && !isPaused) {
+        playAudio();
+    } else if (isPaused) {
+        resumeAudio();
+    } else {
+        pauseAudio();
+    }
+}
+
+function playAudio() {
+    const text = document.getElementById('audioText').textContent;
+    
+    // Create speech utterance
+    currentUtterance = new SpeechSynthesisUtterance(text);
+    
+    // Set voice to Indonesian if available
+    const voices = speechSynthesis.getVoices();
+    const indonesianVoice = voices.find(voice => 
+        voice.lang.includes('id-ID') || voice.lang.includes('id')
+    );
+    if (indonesianVoice) {
+        currentUtterance.voice = indonesianVoice;
+    }
+    
+    // Set speech properties
+    currentUtterance.rate = currentSpeed;
+    currentUtterance.pitch = 1;
+    currentUtterance.volume = 1;
+    
+    // Event handlers
+    let wordCount = text.split(' ').length;
+    let currentWord = 0;
+    
+    currentUtterance.onboundary = (event) => {
+        if (event.name === 'word') {
+            currentWord++;
+            const progress = (currentWord / wordCount) * 50;
+            updateProgress(progress);
+            
+            // Get current word being spoken
+            const words = text.split(' ');
+            const displayWords = words.slice(Math.max(0, currentWord - 3), currentWord + 1).join(' ');
+            document.getElementById('audioStatus').innerHTML = `
+                🎙️ <strong>Sedang membaca:</strong> "${displayWords}"
+            `;
+        }
+    };
+    
+    currentUtterance.onstart = () => {
+        isPlaying = true;
+        isPaused = false;
+        document.getElementById('playIcon').textContent = '⏸️';
+        document.getElementById('playText').textContent = 'Jeda Audio';
+        document.getElementById('audioStatus').innerHTML = '🎙️ <strong>Memulai audio...</strong>';
+    };
+    
+    currentUtterance.onend = () => {
+        finishAudio();
+    };
+    
+    currentUtterance.onerror = (event) => {
+        console.error('Speech error:', event);
+        document.getElementById('audioStatus').innerHTML = '❌ <strong>Terjadi kesalahan. Coba lagi.</strong>';
+        resetAudioButton();
+    };
+    
+    // Start speaking
+    speechSynthesis.speak(currentUtterance);
+}
+
+function pauseAudio() {
+    if (speechSynthesis.speaking && !speechSynthesis.paused) {
+        speechSynthesis.pause();
+        isPaused = true;
+        isPlaying = false;
+        document.getElementById('playIcon').textContent = '▶️';
+        document.getElementById('playText').textContent = 'Lanjutkan Audio';
+        document.getElementById('audioStatus').innerHTML = '⏸️ <strong>Audio dijeda</strong>';
+    }
+}
+
+function resumeAudio() {
+    if (speechSynthesis.paused) {
+        speechSynthesis.resume();
+        isPaused = false;
+        isPlaying = true;
+        document.getElementById('playIcon').textContent = '⏸️';
+        document.getElementById('playText').textContent = 'Jeda Audio';
+        document.getElementById('audioStatus').innerHTML = '🎙️ <strong>Melanjutkan audio...</strong>';
+    }
+}
+
+function finishAudio() {
+    isPlaying = false;
+    isPaused = false;
+    document.getElementById('playIcon').textContent = '✓';
+    document.getElementById('playText').textContent = 'Selesai';
+    document.getElementById('playButton').disabled = true;
+    document.getElementById('audioStatus').innerHTML = '✅ <strong>Audio selesai! Silakan jawab pertanyaan di bawah.</strong>';
+    document.getElementById('questionsSection').style.opacity = '1';
+    document.getElementById('questionsSection').style.pointerEvents = 'auto';
+    updateProgress(50);
+}
+
+function resetAudioButton() {
+    isPlaying = false;
+    isPaused = false;
+    document.getElementById('playIcon').textContent = '▶️';
+    document.getElementById('playText').textContent = 'Putar Audio';
+    document.getElementById('playButton').disabled = false;
+}
+
+function changeSpeed() {
+    currentSpeed = parseFloat(document.getElementById('speedSelect').value);
+    
+    // If audio is playing, restart with new speed
+    if (isPlaying || isPaused) {
+        speechSynthesis.cancel();
+        resetAudioButton();
+        document.getElementById('audioStatus').innerHTML = '⚙️ <strong>Kecepatan diubah. Klik Putar Audio untuk memulai kembali.</strong>';
+    }
+}
+
+function selectAnswer(questionIndex, optionIndex) {
+    const options = document.querySelectorAll(`[data-question="${questionIndex}"]`);
+    options.forEach(opt => opt.classList.remove('selected'));
+    
+    const selectedOption = document.querySelector(`[data-question="${questionIndex}"][data-option="${optionIndex}"]`);
+    selectedOption.classList.add('selected');
+    
+    currentAnswers[questionIndex] = optionIndex;
+    
+    const levelData = learningData[currentClassLevel][currentLevelIndex];
+    if (Object.keys(currentAnswers).length === levelData.questions.length) {
+        document.getElementById('submitButton').disabled = false;
+    }
+}
+
+function submitAnswers() {
+    const levelData = learningData[currentClassLevel][currentLevelIndex];
+    let correctCount = 0;
+    
+    levelData.questions.forEach((q, qIndex) => {
+        const options = document.querySelectorAll(`[data-question="${qIndex}"]`);
+        options.forEach((opt, optIndex) => {
+            opt.style.pointerEvents = 'none';
+            
+            if (optIndex === q.correct) {
+                opt.classList.add('correct');
+                if (currentAnswers[qIndex] === q.correct) {
+                    correctCount++;
+                }
+            } else if (currentAnswers[qIndex] === optIndex) {
+                opt.classList.add('wrong');
+            }
+        });
+    });
+    
+    const scoreGained = Math.round((correctCount / levelData.questions.length) * 100);
+    totalScore += scoreGained;
+    
+    document.getElementById('currentScore').textContent = totalScore;
+    document.getElementById('correctAnswers').textContent = `${correctCount}/${levelData.questions.length}`;
+    document.getElementById('submitButton').style.display = 'none';
+    
+    updateProgress(100);
+    
+    setTimeout(() => showResult(correctCount, levelData.questions.length), 1000);
+}
+
+function showResult(correct, total) {
+    const percentage = (correct / total) * 100;
+    const modal = document.getElementById('resultModal');
+    
+    let emoji, title, profilText;
+    
+    if (percentage === 100) {
+        emoji = '🎉';
+        title = 'Sempurna!';
+        profilText = 'Luar biasa! Kamu menunjukkan sikap <strong>Bernalar Kritis</strong> dengan memahami informasi dengan sangat baik. Kamu juga menunjukkan <strong>Kemandirian</strong> dalam menyelesaikan tantangan. Terus pertahankan semangat belajarmu!';
+    } else if (percentage >= 80) {
+        emoji = '😊';
+        title = 'Hebat Sekali!';
+        profilText = 'Bagus! Kamu telah menunjukkan kemampuan <strong>Bernalar Kritis</strong> yang baik dalam menyimak. Terus tingkatkan fokus dan ketelitianmu untuk menjadi lebih baik lagi!';
+    } else if (percentage >= 60) {
+        emoji = '👍';
+        title = 'Bagus!';
+        profilText = 'Cukup baik! Kamu sudah berusaha dengan baik. Latih terus kemampuan menyimakmu. Dengan <strong>Kemandirian</strong> dan ketekunan, kamu pasti bisa lebih baik!';
+    } else {
+        emoji = '💪';
+        title = 'Tetap Semangat!';
+        profilText = 'Jangan menyerah! Setiap usaha adalah pembelajaran. Dengarkan audio dengan lebih fokus dan baca pertanyaan dengan teliti. Kamu pasti bisa!';
+    }
+    
+    document.getElementById('resultEmoji').textContent = emoji;
+    document.getElementById('resultTitle').textContent = title;
+    document.getElementById('resultScore').textContent = Math.round(percentage) + '%';
+    document.getElementById('resultText').textContent = `Kamu menjawab ${correct} dari ${total} pertanyaan dengan benar!`;
+    document.
